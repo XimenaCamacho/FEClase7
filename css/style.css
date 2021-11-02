@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.foto-perfil, .titulo, .encabezados, .pie-de-pagina {
+  display: flex;
+  align-items: center;
+}
+.foto-perfil, .titulo, .pie-de-pagina {
+  justify-content: center;
+}
+.titulo, .encabezados {
+  background-color: #c4c4c4;
+  color: #005677;
+  letter-spacing: 7px;
+}
+.foto-perfil {
+  padding: 21px;
+}
+.titulo {
+  height: 60px;
+  margin-bottom: 100px;
+}
+.encabezados {
+  padding-left: 20px;
+  height: 30px;
+}
+.estilo-letra {
+  font-style: italic;
+  font-weight: bold;
+}
+.lista-datos {
+  margin: 20px 0px;
+}
+.contenedor-experiencia {
+  display: flex;
+  margin: 15px 10px 15px 30px;
+}
+.anio {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.pie-de-pagina {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #005677;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height: 37px;
+  
+}
+.pie-de-pagina p {
+  margin-right: 16px;
+}
+.pie-de-pagina img {
+  margin: 0px 8px;
+}
